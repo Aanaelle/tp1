@@ -42,3 +42,13 @@ Dans cette 3ème partie, nous avons crée le fichier README.md dans l'éditeur d
 ¤ `git log` : permet de voir toutes les versions du fichier
 
 
+**4. Gestion de version d’un programme Java**
+Création du repertoire /src puis du fichier Cryptomonnaie.java
+Puis ajout et validation du fichier
+Or, lors de la compilation du fichier java, un fichier .class est crée. Mais il ne faut pas le 
+valider par GIT.
+Pour cela, on va crée '.gitignore', une liste de type de fichier que l'on ne veut pas voir dans `git status`
+Après validation du fichier, le .class n'apparait plus dans le `git status`
+
+
+
